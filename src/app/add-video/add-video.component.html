@@ -5,25 +5,50 @@
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col-lg-8 col-xl-6">
           <div class="card rounded-3">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/img3.webp" class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;" alt="Sample photo">
+            <img src="https://blog.ipleaders.in/wp-content/uploads/2020/11/national-educational-policy.jpg"
+                 class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;"
+                 alt="Sample photo">
             <div class="card-body p-4 p-md-5">
-              <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Add Lecture Details</h3>
+              <h1 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Add Lecture Details</h1>
 
               <form class="px-md-2">
 
                 <div class="form-outline mb-4">
                   <label class="form-label">Teacher Name</label>
-                  <input type="text"  class="form-control" />
+                  <input type="text" class="form-control"/>
                 </div>
                 <div class="form-outline mb-4">
-                  <label class="form-label">Teacher Name</label>
-                  <input type="text"  class="form-control" />
+                  <label class="form-label">Subject Name</label>
+                  <select class="form-control">
+                    <option>Select</option>
+                    <option>Science</option>
+                    <option>Physics</option>
+                    <option>Math</option>
+                    <option>Chemistry</option>
+                  </select>
                 </div>
                 <div class="form-outline mb-4">
-                  <label class="form-label">Teacher Name</label>
-                  <input type="text"  class="form-control" />
+                  <label class="form-label">Image</label>
+                  <input type="file" class="form-control">
                 </div>
-                <button type="submit" class="btn btn-success btn-lg mb-1">Submit</button>
+                <div class="form-outline mb-4">
+                  <label class="form-label">Lecture Details</label>
+                  <textarea class="form-control"></textarea>
+                </div>
+                <div class="form-outline mb-4">
+                  <label class="form-label">Date </label>
+                  <input type="date" class="form-control"/>
+                </div>
+                <div class="form-outline mb-4">
+                  <label class="form-label">Time</label>
+                  <input type="time" class="form-control"/>
+                </div>
+                <div class="form-outline mb-4">
+                  <label class="form-label">Lecture Link</label>
+                  <input type="url" class="form-control" placeholder="http://www.example.com/"/>
+                </div>
+                <button type="submit" class="btn btn-success btn-lg mb-1"><i class="fas fa-plus-circle"></i> ADD
+                </button>
 
               </form>
 
