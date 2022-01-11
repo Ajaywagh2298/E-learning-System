@@ -1,0 +1,21 @@
+.box{
+  margin: 5%;
+  display: flex;
+}
+
+.example-card {
+  max-width: 400px;
+  margin: 2%;
+}
+
+.example-header-image {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Breezeicons-actions-22-im-user.svg/1200px-Breezeicons-actions-22-im-user.svg.png');
+  background-size: cover;
+}
+.join-btn{
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.time{
+  font-size: 18px;
+}
