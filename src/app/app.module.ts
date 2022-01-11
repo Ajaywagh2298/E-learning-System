@@ -12,13 +12,15 @@ import {MatFormFieldModule} from "@angular/material/form-field";
 import { HeaderComponent } from './header/header.component';
 import {MatCardModule} from "@angular/material/card";
 import {MatButtonModule} from "@angular/material/button";
+import { AddVideoComponent } from './add-video/add-video.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     DashboardComponent,
-    HeaderComponent
+    HeaderComponent,
+    AddVideoComponent
   ],
   imports: [
     BrowserModule,
